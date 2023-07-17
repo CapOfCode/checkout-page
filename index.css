@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 2% 10%;
+
+}
+
+.title {
+    color: #4E5150;
+    font-size: 35px;
+    margin-bottom: 30px;
+    ;
+}
+
+
+/* Address Container Start Here */
+
+.checkout-content {
+    display: flex;
+    gap: 10%;
+}
+
+.checkout-content h2 {
+    color: #333333;
+}
+
+
+.labels {
+    display: block;
+    margin: 15px 0;
+    font-size: 14px;
+    color: #4F4F4F
+}
+
+input {
+    display: block;
+    padding: 16px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: 5px 0;
+    color: #828282;
+    width: 90%;
+}
+
+.sub-container {
+    margin-top: 30px;
+}
+
+.sub-address {
+    margin-top: 0px;
+    display: flex;
+    gap: 25px;
+}
+
+
+.sub-address input {
+    width: 78%;
+}
+
+#save-info-box {
+    margin: 0px;
+}
+
+.save-info {
+    display: block;
+    margin: 0;
+    font-size: 15px;
+    color: #4F4F4F
+}
+
+#checkbox {
+    display: inline-block;
+    width: fit-content;
+}
+
+.cta {
+    display: flex;
+    justify-content: right;
+}
+
+button {
+
+    background-color: #F2994A;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+
+
+}
+
+
+/* Product Container Start Here */
+.product-container {
+    background-color: #e15656;
+    padding: 5% 2%;
+    height: fit-content;
+}
+
+.product-card {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.image img {
+    width: 130px;
+    height: 130px;
+    border-radius: 15px;
+}
+
+.shipping-charge {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.total-charge {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-card h3 {
+    color: #4E5150;
+}
+
+.text-content h4 {
+    color: #F2994A;
+    font-size: 16px;
+}
+
+.text-content s {
+    color: #4E5150;
+    font-size: 13px;
+    margin-left: 10px;
+    font-style: s;
+}
+
+.quantity {
+    border: 1px solid #828282;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.quantity-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quantity-item span {
+    background-color: #828282;
+    padding: 2px 4px;
+    border-radius: 8px;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=5" />
+  <link rel="icon" href="devchallenges.png" />
+  <script src="https://kit.fontawesome.com/9e889ca0a4.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="index.css">
+  <title>Devchallenges</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">Checkout</h1>
+    <div class="checkout-content">
+      <div class="information-container">
+
+        <div class="contact-information">
+          <h2>Contact Information</h2>
+          <label for="email" class="labels"> E-mail
+            <input type="email" id="email" placeholder="Enter Your Email ....">
+          </label>
+
+          <label for="phone" class="labels"> Phone
+            <input type="number" id="phone" placeholder="Enter Your Phone ....">
+          </label>
+        </div>
+        <div class="shipping-address sub-container">
+          <h2>Shipping Address</h2>
+          <label for="name" class="labels"> Full Name
+            <input type="text" id="name" placeholder="Your Full Name">
+          </label>
+          <label for="address" class="labels"> Address
+            <input type="text" id="address" placeholder="Your Address..">
+          </label>
+          <label for="city" class="labels"> City
+            <input type="text" id="city" placeholder="Your City..">
+          </label>
+          <div class="sub-address">
+            <label for="country" class="labels"> Country
+              <input type="text" id="country" placeholder="Your Country">
+            </label>
+            <label for="code" class="labels"> Postal Code
+              <input type="text" id="code" placeholder="Your Country">
+            </label>
+          </div>
+
+          <label for="checkbox" class="save-info">
+            <input type="checkbox" id="checkbox"> Save this information for next time
+          </label>
+          <div class="cta">
+            <button>Continue</button>
+          </div>
+
+        </div>
+      </div>
+      <div class="product-container">
+        <div class="product-card">
+          <div class="image">
+            <img src="photo1.png" alt="">
+          </div>
+          <div class="text-content">
+            <h3>Vintage Backpack</h3>
+            <h4>$54.99 <s>$94.99</s></h4>
+            <div class="quantity">
+              <div class="quantity-item"><span><i class="fa-solid fa-minus"></i></span>
+                <h3>1</h3> <span><i class="fa-solid fa-plus"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="image">
+            <img src="photo1.png" alt="">
+          </div>
+          <div class="text-content">
+            <h3>Vintage Backpack</h3>
+            <h4>$54.99 <s>$94.99</s></h4>
+            <div class="quantity">
+              <div class="quantity-item"><span><i class="fa-solid fa-minus"></i></span>
+                <h3>1</h3> <span><i class="fa-solid fa-plus"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cart-container">
+          <div class="shipping-charge">
+            <h2>Shipping</h2>
+            <h3>$19</h3>
+          </div>
+          <div class="total-charge">
+            <h2>Total</h2>
+            <h3>$148.98</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
