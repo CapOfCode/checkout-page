@@ -99,15 +99,22 @@ button {
 
 /* Product Container Start Here */
 .product-container {
-    background-color: #e15656;
+    background-color: #F2F2F2;
     padding: 5% 2%;
     height: fit-content;
+    border-radius: 10px;
+    width: 30%;
 }
 
 .product-card {
     display: flex;
     gap: 10px;
     width: 100%;
+
+}
+
+.card-2 {
+    margin: 30px 0 0 0;
 }
 
 .image img {
@@ -132,6 +139,7 @@ button {
 }
 
 .text-content h4 {
+    margin-top: 10px;
     color: #F2994A;
     font-size: 16px;
 }
@@ -145,7 +153,7 @@ button {
 
 .quantity {
     border: 1px solid #828282;
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 10px;
     border-radius: 10px;
 }
@@ -156,7 +164,24 @@ button {
 }
 
 .quantity-item span {
-    background-color: #828282;
+    color: #4E5150;
+    background-color: #d5d3d3;
     padding: 2px 4px;
     border-radius: 8px;
+}
+
+.cart-container {
+    margin-top: 100px;
+}
+
+.total-charge {
+    color: #333333;
+    margin-top: 10px;
+}
+
+.shipping-charge {
+    color: #333333;
+    padding: 10px 0;
+    border-top: 1px solid #828282;
+    border-bottom: 1px solid #828282;
 }
